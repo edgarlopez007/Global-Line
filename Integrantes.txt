@@ -1,0 +1,9 @@
+INFORMACIÓN DE LOS INTEGRANTES - GLOBAL-LINE:
+============================================
+No.	NOMBRE				IDENTIFICACION	MOVIL		EMAIL
+1	Hugo Prada Millan		C.C. 16804241	3184396371	miprago@hotmail.com
+2	Edwin Fernando Montiel Gaitán	C.C. 79995305	3045293601	edwinfmontiel@gmail.com
+3	Carlos Duván Mozo Moreno	C.C. 1056709932	3204329948	cmozo409@gmail.com
+4	Juan David Rodríguez Hernández	C.C. 1001048727	3202593258	juandavidrh02@gmail.com
+5	Edgar Adalberto López Potosí	C.C. 87717859	3185843325	glcnegocios@hotmail.com
+
