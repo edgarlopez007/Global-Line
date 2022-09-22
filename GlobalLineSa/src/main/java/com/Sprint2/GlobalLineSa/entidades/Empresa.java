@@ -1,20 +1,41 @@
 package com.Sprint2.GlobalLineSa.entidades;
 
+import javax.persistence.*;
+import javax.persistence.Table;
+
+
+@Entity
+@Table(name = "empresa")
 public class Empresa {
 
-    private Integer id;
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private long Id;
+
+    @Column(name = "id")
+    private long id;
+    @Column(name = "nombre")
     private String nombre;
+    @Column(name = "documento")
     private String documento;
+    @Column(name = "telefono")
     private String telefono;
+    @Column(name = "direccion")
     private String direccion;
+    @Column(name = "user")
     private String user;
 
     //new
+    @Transient
     private Empleado empleados;
 
     //constructor
 
-    public Empresa(Integer id, String nombre, String documento, String telefono,
+    public Empresa() {
+    }
+
+    public Empresa(long id, String nombre, String documento, String telefono,
                    String direccion, String user, Empleado empleados) {
 
         this.id = id;
@@ -29,11 +50,11 @@ public class Empresa {
 
     //getters and setters
 
-    public Integer getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(long id) {
         this.id = id;
     }
 

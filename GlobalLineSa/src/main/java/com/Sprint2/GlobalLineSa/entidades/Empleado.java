@@ -1,18 +1,40 @@
 package com.Sprint2.GlobalLineSa.entidades;
 
+
+import javax.persistence.*;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "empleado")
+
 public class Empleado {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long Id;
+
+    @Column(name = "id")
     private int id;
+    @Column(name = "correo")
     private String correo;
+    @Column(name = "perfil")
     private String perfil;
+    @Column(name = "rol")
     private String rol;
+    @Column(name = "empresa")
     private String empresa;
+    @Column(name = "transaccion")
     private String transaccion;
 
     //new
+
+    @Transient
     private Dinero dineros;
 
     //constructor
+
+    public Empleado() {
+    }
 
     public Empleado(int id, String correo, String perfil, String rol,
                     String empresa, String transaccion, Dinero dineros) {

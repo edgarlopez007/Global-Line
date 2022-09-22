@@ -2,8 +2,11 @@ package com.Sprint2.GlobalLineSa.servicios;
 
 import com.Sprint2.GlobalLineSa.entidades.Empresa;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class ServiciosEmpresas {
 
