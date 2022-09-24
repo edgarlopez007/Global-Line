@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="dac9a155-7d67-447a-b0b5-bbe9cd5d7a48" name="Sprint2_GlobalLine" url="jdbc:postgresql://db.zzhyjemvefsifcpymxkm.supabase.co/postgres" driverClass="org.postgresql.Driver" />
+    </data-sources>
+  </component>
+</project>
